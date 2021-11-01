@@ -1,0 +1,9 @@
+// .sequelizerc
+
+const path = require('path');
+
+module.exports = {
+  'config': path.resolve('config', 'datastores.js'),
+  'models-path': path.resolve('api', 'models'),
+  'migrations-path': path.resolve('api', 'migrations')
+};
